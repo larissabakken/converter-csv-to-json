@@ -8,7 +8,7 @@ const csvFile = fs.createWriteStream(
 
 csvFile.write('id; name; email; password\n');
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 100000; i++) {
     const id = i;
     const name = crypto.randomBytes(10).toString('hex');
     const email = crypto.randomBytes(10).toString('hex') + '@gmail.com';
