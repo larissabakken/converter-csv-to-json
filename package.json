@@ -1,0 +1,11 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ramos-larissa/converter-csv-to-json.git",
+  "author": "Larissa Ramos <devlarissasr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
